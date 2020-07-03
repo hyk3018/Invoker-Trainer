@@ -1,0 +1,111 @@
+<gameData>
+  <spellList>
+    <spell id="cs">
+      <name>cold snap</name>
+      <castType>targetted</castType>
+      <castSequence>
+        <action>cs</action>
+        <action>click</action>
+      </castSequence>
+    </spell>
+    <spell id="gw">
+      <name>ghost walk</name>
+      <castType>non-targetted</castType>
+      <castSequence>
+        <action>gw</action>
+      </castSequence>
+    </spell>
+    <spell id="iw">
+      <name>ice wall</name>
+      <castType>non-targetted</castType>
+      <castSequence>
+        <action>iw</action>
+      </castSequence>
+    </spell>
+    <spell id="emp">
+      <name>emp</name>
+      <castType>targetted</castType>
+      <castSequence>
+        <action>emp</action>
+        <action>click</action>
+      </castSequence>
+    </spell>
+    <spell id="tor">
+      <name>tornado</name>
+      <castType>targetted</castType>
+      <castSequence>
+        <action>tor</action>
+        <action>click</action>
+      </castSequence>
+    </spell>
+    <spell id="als">
+      <name>self alacrity</name>
+      <castType>self target</castType>
+      <castSequence>
+        <action>als</action>
+        <action>als</action>
+      </castSequence>
+    </spell>
+    <spell id="ala">
+      <name>alacrity</name>
+      <castType>targetted</castType>
+      <castSequence>
+        <action>als</action>
+        <action>click</action>
+      </castSequence>
+    </spell>
+    <spell id="sun">
+      <name>sunstrike</name>
+      <castType>targetted</castType>
+      <castQueue>
+        <action>sun</action>
+        <action>click</action>
+      </castQueue>
+    </spell>
+    <spell id="for">
+      <name>forged spirits</name>
+      <castType>non-targetted</castType>
+      <castQueue>
+        <action>for</action>
+      </castQueue>
+    </spell>
+    <spell id="chm">
+      <name>chaos meteor</name>
+      <castType>targetted</castType>
+      <castQueue>
+        <action>chm</action>
+        <action>click</action>
+      </castQueue>
+    </spell>
+    <spell id="dfb">
+      <name>deafening blast</name>
+      <castType>targetted</castType>
+      <castQueue>
+        <action>dfb</action>
+        <action>click</action>
+      </castQueue>
+    </spell>
+  </spellList>
+  <cooldownMechanics>
+    <absolute>
+      <item id="no_aghs">
+        <name>invoke</name>
+        <cooldown mode="always">6</cooldown>
+      </item>
+      <item id="aghs">
+        <name>aghanim's scepter</name>
+        <cooldown>2</cooldown>
+      </item>
+    </absolute>
+    <percentage>
+      <item id="oct">
+        <name>octarine core</name>
+        <cooldown>25</cooldown>
+      </item>
+      <item id="arc">
+        <name>arcane rune</name>
+        <cooldown>25</cooldown>"
+      </item>
+    </percentage>
+  </cooldownMechanics>
+</gameData>

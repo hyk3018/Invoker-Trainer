@@ -1,0 +1,98 @@
+<comboList>
+  <active>
+    <!--
+    <combo id="" name="">
+      <timeOfUse>001</timeOfUse>
+      <spell></spell>
+      <spell></spell>
+    </combo>
+    -->
+    <combo id="1" name="Cold Snap Basic">
+      <timeOfUse>111</timeOfUse>
+      <spell>als</spell>
+      <spell>cs</spell>
+    </combo>
+    <combo id="2" name="Cold Snap into Sunstrike">
+      <timeOfUse>110</timeOfUse>
+      <spell>cs</spell>
+      <spell>sun</spell>
+    </combo>
+    <combo id="3" name="EMP into Coldsnap">
+      <timeOfUse>111</timeOfUse>
+      <spell>emp</spell>
+      <spell>cs</spell>
+    </combo>
+    <combo id="4" name="Cold Snap Basic with Ghost Walk">
+      <timeOfUse>011</timeOfUse>
+      <spell>als</spell>
+      <spell>cs</spell>
+      <spell>gw</spell>
+    </combo>
+    <combo id="5" name="Cold Snap Basic with Forged Spirit">
+      <timeOfUse>011</timeOfUse>
+      <spell>als</spell>
+      <spell>cs</spell>
+      <spell>for</spell>
+    </combo>
+    <combo id="6" name="Cold Snap Basic with Forged Spirit and Ghost Walk">
+      <timeOfUse>011</timeOfUse>
+      <spell>als</spell>
+      <spell>cs</spell>
+      <spell>for</spell>
+      <spell>gw</spell>
+    </combo>
+    <combo id="7" name="EMP into Tornado Coldsnap">
+      <timeOfUse>110</timeOfUse>
+      <spell>emp</spell>
+      <spell>tor</spell>
+      <spell>cs</spell>
+    </combo>
+    <combo id="10" name="Push with Forged Spirits">
+      <timeOfUse>011</timeOfUse>
+      <spell>for</spell>
+      <spell>ala</spell>
+    </combo>
+    <combo id="11" name="Teamfight Opener Basic">
+      <timeOfUse>011</timeOfUse>
+      <spell>tor</spell>
+      <spell>chm</spell>
+      <spell>dfb</spell>
+    </combo>
+    <combo id="12" name="Solo Burst">
+      <timeOfUse>011</timeOfUse>
+      <spell>tor</spell>
+      <spell>sun</spell>
+      <spell>chm</spell>
+      <spell>dfb</spell>
+    </combo>
+    <combo id="13" name="Solo Burst with Coldsnap">
+      <timeOfUse>011</timeOfUse>
+      <spell>tor</spell>
+      <spell>sun</spell>
+      <spell>chm</spell>
+      <spell>cs</spell>
+    </combo>
+    <combo id="8" name="EMP Tornado into Ice Wall and Coldsnap">
+      <timeOfUse>011</timeOfUse>
+      <spell>emp</spell>
+      <spell>tor</spell>
+      <spell>iw</spell>
+      <spell>cs</spell>
+    </combo>
+    <combo id="9" name="Tornado into Ice Wall and EMP">
+      <timeOfUse>011</timeOfUse>
+      <spell>tor</spell>
+      <spell>iw</spell>
+      <spell>emp</spell>
+    </combo>
+  </active>
+  <inactive>
+    <combo id="90" name="Ghost Walk into Cold Snap">
+      <timeOfUse>011</timeOfUse>
+      <spell>gw</spell>
+      <spell>cs</spell>
+      <spell>als</spell>
+      <spell>for</spell>
+    </combo>
+  </inactive>
+</comboList>
